@@ -1,0 +1,38 @@
+{
+    "diaconias": [
+        {
+            "nombre": "Diaconia El Carmen",
+            "imagen1": "../../assets/img/ElCarmen.jpg",
+            "imagen2": "../../assets/img/Fondo.jpg",
+            "imagen3": "../../assets/img/Fondo2.jpg",
+              "Primero": "<li><a  href='Primero.html'>Primero</a></li>",
+              "Segundo": "<li><a  href='Segundo.html'>Segundo</a></li>",
+              "Tercero": "<li><a  href='Tercero.html'>Tercero</a></li>",
+              "Cuarto": "<li><a  href='Cuarto.html'>Cuarto</a></li>",
+              "Quinto": "<li><a  href='Quinto.html'>Quinto</a></li>",
+              "Sexto": "<li><a  href='Sexto.html'>Sexto</a></li>",
+              "Confirma": "<li><a href='Confirma.html'>Confirma</a></li>",
+            "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.2622740113253!2d-84.21631367081791!3d10.012803499552666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9b1e7818af7%3A0x90cfe9aeda57614b!2sAulas%20Catequesis%20Parroquia%20Nuestra%20Se%C3%B1ora%20de%20El%20Carmen!5e0!3m2!1ses!2scr!4v1659723600156!5m2!1ses!2scr' width='90%' height='400' style='border:0;border-radius: 10px;' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+        },
+      {
+            "nombre": "Diaconia de Monserrat",
+            "imagen1": "../../assets/img/ElCarmen.jpg",
+            "imagen2": "../../assets/img/Fondo.jpg",
+            "imagen3": "../../assets/img/Fondo2.jpg",
+              "Primero": "<li><a  href='Primero.html'>Primero</a></li>",
+              "Segundo": "<li><a  href='Segundo.html'>Segundo</a></li>",
+              "Tercero": "<li><a  href='Tercero.html'>Tercero</a></li>",
+            "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d313.1163254501987!2d-84.21294353138343!3d10.003015967694884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9b9dfecf489%3A0x63ec61cbcbfe2776!2sIglesia%20Cat%C3%B3lica%20De%20Montserrat!5e1!3m2!1ses!2scr!4v1659725932664!5m2!1ses!2scr' width='90%' height='400' style='border:0;border-radius: 10px;' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+        },
+      {
+            "nombre": "Diaconia de Santa Rosa de Lima",
+            "imagen1": "../../assets/img/ElCarmen.jpg",
+            "imagen2": "../../assets/img/Fondo.jpg",
+            "imagen3": "../../assets/img/Fondo2.jpg",
+              "Primero": "<li><a  href='Primero.html'>Primero</a></li>",
+              "Segundo": "<li><a  href='Segundo.html'>Segundo</a></li>",
+              "Tercero": "<li><a  href='Tercero.html'>Tercero</a></li>",
+            "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.10229187648662!2d-84.22847582722251!3d10.006685563099927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f84ac8bb0639%3A0x76dbb4f29b9ba5a1!2sIglesia%20Cat%C3%B3lica%20de%20Montecillos%20(Santa%20Rosa%20de%20Lima)!5e1!3m2!1ses!2scr!4v1659726155155!5m2!1ses!2scr' width='90%' height='400' style='border:0;border-radius: 10px;' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+        }
+   ]
+}
