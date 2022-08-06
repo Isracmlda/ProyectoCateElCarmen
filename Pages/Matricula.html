@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Catequesis parroquia Nuestra Señora de El Carmen</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/Logo.ico" rel="icon">
+  <link href="../assets/img/Logo.ico" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy - v1.0.0
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center navegador">
+    <a class="logoReferencia" href="../index.html"><img src="../assets/img/Logo Nav.png" class="LogoNav" alt=""></a>
+    
+
+    <div class="container d-flex align-items-center justify-content-between ">
+
+      
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="Quienes Somos.html">¿Quienes somos?</a></li>
+          <li><a href="Noticias.html">Noticias</a></li>
+          <li class="dropdown"><a href="#"><span>Niveles</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+              <li><a href="Niveles/Primero.html">Primero</a></li>
+              <li><a  href="Niveles/Segundo.html">Segundo</a></li>
+              <li><a  href="Niveles/Tercero.html">Tercero</a></li>
+              <li><a  href="Niveles/Cuarto.html">Cuarto</a></li>
+              <li><a  href="Niveles/Quinto.html">Quinto</a></li>
+              <li><a  href="Niveles/Sexto.html">Sexto</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a href="Niveles/Confirma.html">Confirma</a></li>
+          </ul>
+          <li><a href="Diaconias.html">Diaconias</a></li>
+          <li><a href="Matricula.html" class="disabled">Matricula</a></li>
+          <li><a href="#contact">Contactanos</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+      <a class="" href="#"></a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+  
+  <!-- End Header -->
+  <main id="main">
+    <p class="tituloNoti" data-aos="fade-up" data-aos-delay="150">Formulario de Matricula de catequizando</p>
+    <p class="text-center"data-aos="fade-up" data-aos-delay="150">Diócesis de Alajuela - Vicaria Monestel</p>
+    <h1 class="text-center"data-aos="fade-up" data-aos-delay="150">Parroquia Nuestra Señora de El Carmen</h1>
+    <h4 id="date2" class="text-center"data-aos="fade-up" data-aos-delay="150">Formulario de Matricula para la Catequesis Básica de la Fe, Año </h4>
+    <script>document.getElementById("date2").innerHTML+= new Date().getFullYear()</script>
+    <div class="text-center mat1"data-aos="fade-up" data-aos-delay="150">
+      <h5 id="date3">Fecha de inscripción: </h5>
+      <script>
+      let fecha="";
+      fecha=new Date().getDate()+"/"+new Date().getMonth()+"/"+new Date().getFullYear();
+      document.getElementById("date3").innerHTML+= fecha;
+      </script>
+    </div>
+    
+    
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-map box">
+              <div id="formularioCredito" >
+                <form class="form-a">
+                  <div class="row">
+                    <label class="pb-2" >(*) Requerido</label>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="correo">Nivel que desea inscribir: </label>
+                          <select name="Nivel" class="form-control form-control-lg form-control-a" >
+                            <option></option>
+                            <option>Primero</option>
+                            <option>Segundo</option>
+                            <option>Tercero</option>
+                            <option>Cuarto</option>
+                            <option>Quinto</option>
+                            <option>Sexto</option>
+                            <option>Confirma</option>
+                          </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="correo">Diaconia en la que desea matricular: *</label>
+                          <div class="form-control form-control-lg form-control-a text-center" >
+                            <input type="radio" name="diaconiaMat" value="1">   El Carmen
+                            <input type="radio" name="diaconiaMat" value="2">   Monserrat
+                            <input type="radio" name="diaconiaMat" value="3">   Santa Rosa de Lima
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="fotoMat">Foto del Catequizando *</label>
+                        <input type="file" name="fotoMat" id="fotoMat" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Nombre del Catequizando *</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Nombre Completo del Catequizando" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="correo">Email *</label>
+                        <input type="email" name="correo" id="correo" class="form-control form-control-lg form-control-a" placeholder="persona@dominio.com" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="correo">Género: *</label>
+                          <div class="form-control form-control-lg form-control-a text-center" >
+                            <input type="radio" name="GeneroMat" value="1">   Masculino
+                            <input type="radio" name="GeneroMat" value="2">   Femenino
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Dirección donde vive: *</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej: 50 mts oeste de la plaza del Carmen" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Nombre de la Madre</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Nombre Completo de la Madre">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Telefono de la Madre</label>
+                        <input type="tel" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej:88008800">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Nombre del Padre</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Nombre Completo del Padre">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Telefono del Padre</label>
+                        <input type="tel" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej:88008800">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Nombre del Encargado Legal *</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Nombre Completo del Encargado Legal" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Telefono del Encargado Legal *</label>
+                        <input type="tel" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej:88008800" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Estado Civil de los padres *</label>
+                        <select name="Nivel" class="form-control form-control-lg form-control-a" >
+                          <option></option>
+                          <option>Casados</option>
+                          <option>Separados</option>
+                          <option>Divorciados</option>
+                          <option>Solteros</option>
+                          <option>Unión Libre</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Cantidad de hermanos:</label>
+                        <input type="number" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Lugar de Naciomiento: *</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej: Hosp. México" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Birthday">Fecha de Nacimiento *</label>
+                        <input type="date" name="Birthday" id="Birthday"class="form-control form-control-lg form-control-a" placeholder="" required>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Lugar de Bautizo: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej: Parroquia Nuestra Señora de El Carmen, Alajuela">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Birthday">Fecha de Bautizo: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="date" name="Birthday" id="Birthday"class="form-control form-control-lg form-control-a" placeholder="">
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Lugar de Primera Comunión: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej: Parroquia Nuestra Señora de El Carmen, Alajuela">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Birthday">Fecha de Primera Comunión: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="date" name="Birthday" id="Birthday"class="form-control form-control-lg form-control-a" placeholder="">
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Nombre">Lugar de Perseverancia: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="text" name="Nombre" id="Nombre" class="form-control form-control-lg form-control-a" placeholder="Ej: Parroquia Nuestra Señora de El Carmen, Alajuela">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Birthday">Fecha de Perseverancia: (Dejar en blanco si el catequizando no la ha realizado)</label>
+                        <input type="date" name="Birthday" id="Birthday"class="form-control form-control-lg form-control-a" placeholder="">
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">Centro Educativo en el que estudia: *</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">Grado que cursa: *</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Interes">¿El catequizando Posee alguna adecuacion curricular? *</label>
+                        <div class="form-control form-control-lg form-control-a text-center" >
+                          <input type="radio" name="AdecuacionMat" value="1">   Sí
+                          <input type="radio" name="AdecuacionMat" value="2">   No
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">En caso de que la respuesta sea afirmativa, Explique:</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Interes">¿El catequizando Posee algun problema de conducta? *</label>
+                        <div class="form-control form-control-lg form-control-a text-center" >
+                          <input type="radio" name="AdecuacionMat" value="1">   Sí
+                          <input type="radio" name="AdecuacionMat" value="2">   No
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">En caso de que la respuesta sea afirmativa, Explique:</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Interes">¿El catequizando toma algun medicamento? *</label>
+                        <div class="form-control form-control-lg form-control-a text-center" >
+                          <input type="radio" name="AdecuacionMat" value="1">   Sí
+                          <input type="radio" name="AdecuacionMat" value="2">   No
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">En caso de que la respuesta sea afirmativa, Indique cual(es):</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Interes">¿El catequizando tiene algun impedimento físico? *</label>
+                        <div class="form-control form-control-lg form-control-a text-center" >
+                          <input type="radio" name="AdecuacionMat" value="1">   Sí
+                          <input type="radio" name="AdecuacionMat" value="2">   No
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="Salario">En caso de que la respuesta sea afirmativa, Indique cual(es):</label>
+                        <input type="text" name="Salario" id="Salario" class="form-control form-control-lg form-control-a" placeholder="">
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2">
+                      <div class="form-group mt-3">
+                        <h5>
+                          ME COMPROMETO A CUMPLIR CON LA FORMACION EN LA FE Y PARTICIPAR EN LO QUE SE REQUIERE EN LA CATEQUESIS,
+                          ENCUENTROS FAMILIARES Y MISAS DE NIÑOS, PARA QUE MI HIJO O HIJA CREZCA ESPIRITUALMENTE COMO HIJO DE DIOS
+                          Y APRENDA A VIVIR CRISTIANAMENTE. <strong>(IMPORTANTE, ADJUNTAR FE DE BAUTISMO A ESTA MATRICULA)</strong>
+                          <br>
+                          Sube un archivo:
+                          <input type="file" name="febaumat">
+                        </h5>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="vivienda">Nombre del Encargado Legal *</label>
+                        <input type="text" name="vivienda" id="vivienda" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="vivienda">Cédula del Encargado Legal *</label>
+                        <input type="text" name="vivienda" id="vivienda" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="col-md-12 mb-2">
+                      <div class="form-group mt-3">
+                        <label class="pb-2" for="vivienda">Indique los nombres de las personas autorizadas en retirar al niño *</label>
+                        <input type="text" name="vivienda" id="vivienda" class="form-control form-control-lg form-control-a" placeholder="" required>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-12 text-center">
+                      <button class="btn" type="submit" onclick="EnviarMatricula()" >Enviar</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+  </main>
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container-fluid bg-4 text-center">
+        <credit>&copy;Derechos Reservados</credit>
+        <credit id="date"></credit> 
+        <script>document.getElementById("date").innerHTML= new Date().getFullYear()</script>
+        <br>
+        <credit> Parroquia Nuestra Señora de El Carmen, Alajuela, Costa Rica</credit>
+    </div>
+</footer>
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/cargaDiaconias.js"></script>
+
+</body>
+
+</html>
